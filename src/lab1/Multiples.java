@@ -6,6 +6,10 @@ public class Multiples{
         System.out.println(multiples(1000, 3, 5));
     }
 
+    public static int multiples() {
+        return multiples(1000, 3, 5);  // default problem
+    }
+
     public static int multiples(int n, int a, int b) {
         int count = 0;
         for (int i = 1; i < n; i++) {
